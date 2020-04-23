@@ -1,0 +1,5 @@
+package com.webspring.repository;
+
+public interface UserRepository {
+
+}

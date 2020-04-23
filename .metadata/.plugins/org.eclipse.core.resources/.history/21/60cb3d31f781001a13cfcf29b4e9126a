@@ -1,0 +1,5 @@
+package com.webspring.dto;
+
+public class AbstractDTO {
+
+}

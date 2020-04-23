@@ -1,0 +1,5 @@
+package com.webspring.controller.admin;
+
+public class NewController {
+
+}

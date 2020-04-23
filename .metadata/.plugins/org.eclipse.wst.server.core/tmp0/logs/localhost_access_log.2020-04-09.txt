@@ -1,0 +1,9 @@
+127.0.0.1 - - [09/Apr/2020:17:22:05 +0700] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [09/Apr/2020:17:22:56 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:58 +0700] "GET /spring-mvc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /spring-mvc/trang-chu HTTP/1.1" 200 4420
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /spring-mvc/template/web/css/small-business.css HTTP/1.1" 200 286
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /spring-mvc/template/web/vendor/jquery/jquery.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+0:0:0:0:0:0:0:1 - - [09/Apr/2020:17:22:59 +0700] "GET /favicon.ico HTTP/1.1" 404 1005

@@ -1,0 +1,5 @@
+package com.webspring.service;
+
+public class INewService {
+
+}

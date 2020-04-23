@@ -1,0 +1,16 @@
+127.0.0.1 - - [08/Apr/2020:20:58:27 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:20:58:28 +0700] "GET /spring-mvc/ HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:20:58:28 +0700] "GET /favicon.ico HTTP/1.1" 404 1005
+127.0.0.1 - - [08/Apr/2020:21:00:38 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:39 +0700] "GET /spring-mvc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:40 +0700] "GET /spring-mvc/trang-chu HTTP/1.1" 200 4420
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:40 +0700] "GET /spring-mvc/template/web/css/small-business.css HTTP/1.1" 200 286
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:40 +0700] "GET /spring-mvc/template/web/vendor/jquery/jquery.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:40 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:00:40 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+127.0.0.1 - - [08/Apr/2020:21:18:41 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:18:42 +0700] "GET /spring-mvc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:18:42 +0700] "GET /spring-mvc/trang-chu HTTP/1.1" 200 4420
+127.0.0.1 - - [08/Apr/2020:21:20:23 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:20:23 +0700] "GET /spring-mvc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2020:21:20:23 +0700] "GET /spring-mvc/trang-chu HTTP/1.1" 200 4420

@@ -1,0 +1,20 @@
+package com.webspring.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
+
+public class SecurityUtils {
+	public static List<String> getAuthorities(){
+		List<String> results = new ArrayList<>();
+		List<GrantedAuthority> list2 = (List<GrantedAuthority>)(SecurityContextHolder.getContext().getAuthentication().getAuthorities());
+		List<GrantedAuthority> list = list2;
+		List<GrantedAuthority> authorities = list;
+		for(GrantedAuthority authority : authorities) {
+			results.add(authority.getAuthority());
+		}
+		return results;
+	}
+}

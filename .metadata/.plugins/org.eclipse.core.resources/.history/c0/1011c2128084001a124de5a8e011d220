@@ -1,0 +1,15 @@
+package com.webspring.controller.admin;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.webspring.service.INewService;
+
+@Controller(value = "newControllerOfAdmin")
+public class NewController {
+	@Autowired
+	private INewService newService;
+	
+	@RequestMapping(value = "/quan-tri/bai-viet/danh-sach")
+}

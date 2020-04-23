@@ -1,0 +1,48 @@
+package com.webspring.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+
+import com.webspring.dto.NewDTO;
+import com.webspring.repository.NewRepository;
+import com.webspring.service.INewService;
+
+public class NewService implements INewService {
+	@Autowired
+	private NewRepository newRepository;
+
+	@Override
+	public List<NewDTO> findAll() {
+		List<NewDTO> models = new ArrayList<>();
+		Lis
+	}
+//
+//	@Override
+//	public int getTotalItem() {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
+//
+//	@Override
+//	public NewDTO findById(long id) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public NewDTO save(NewDTO dto) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public void delete(long[] ids) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+	
+	
+}

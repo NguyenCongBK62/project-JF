@@ -1,0 +1,5 @@
+package com.webspring.entity;
+
+public class CategoryEntity {
+
+}
